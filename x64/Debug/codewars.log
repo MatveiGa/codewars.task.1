@@ -1,0 +1,13 @@
+﻿  Source.cpp
+D:\WORKING\codewars\codewars\Source.cpp(16,20): warning C4244: =: преобразование "_Ty" в "int", возможна потеря данных
+D:\WORKING\codewars\codewars\Source.cpp(16,20): warning C4244:         with
+D:\WORKING\codewars\codewars\Source.cpp(16,20): warning C4244:         [
+D:\WORKING\codewars\codewars\Source.cpp(16,20): warning C4244:             _Ty=uint64_t
+D:\WORKING\codewars\codewars\Source.cpp(16,20): warning C4244:         ]
+D:\WORKING\codewars\codewars\Source.cpp(27,25): warning C4244: =: преобразование "_Ty" в "int", возможна потеря данных
+D:\WORKING\codewars\codewars\Source.cpp(27,25): warning C4244:         with
+D:\WORKING\codewars\codewars\Source.cpp(27,25): warning C4244:         [
+D:\WORKING\codewars\codewars\Source.cpp(27,25): warning C4244:             _Ty=uint64_t
+D:\WORKING\codewars\codewars\Source.cpp(27,25): warning C4244:         ]
+D:\WORKING\codewars\codewars\Source.cpp(34,8): warning C4244: инициализация: преобразование "uint64_t" в "int", возможна потеря данных
+  codewars.vcxproj -> D:\WORKING\codewars\x64\Debug\codewars.exe
