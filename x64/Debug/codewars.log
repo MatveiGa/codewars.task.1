@@ -1,10 +1,9 @@
 ﻿  Source.cpp
-D:\WORKING\codewars\codewars\Source.cpp(40,8): warning C4244: инициализация: преобразование "uint64_t" в "int", возможна потеря данных
 D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\xutility(1627,36): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
   (компиляция исходного файла "Source.cpp")
       D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\xutility(1627,36):
       контекст создания экземпляра шаблона (сначала самый старый)
-          D:\WORKING\codewars\codewars\Source.cpp(31,7):
+          D:\WORKING\codewars\codewars\Source.cpp(19,7):
           выполняется компиляция ссылки на экземпляр шаблон функции "void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,bool(__cdecl *)(int,int)>(const _RanIt,const _RanIt,_Pr)"
           with
           [
