@@ -1,13 +1,112 @@
 ﻿  Source.cpp
-D:\WORKING\codewars\codewars\Source.cpp(16,20): warning C4244: =: преобразование "_Ty" в "int", возможна потеря данных
-D:\WORKING\codewars\codewars\Source.cpp(16,20): warning C4244:         with
-D:\WORKING\codewars\codewars\Source.cpp(16,20): warning C4244:         [
-D:\WORKING\codewars\codewars\Source.cpp(16,20): warning C4244:             _Ty=uint64_t
-D:\WORKING\codewars\codewars\Source.cpp(16,20): warning C4244:         ]
-D:\WORKING\codewars\codewars\Source.cpp(27,25): warning C4244: =: преобразование "_Ty" в "int", возможна потеря данных
-D:\WORKING\codewars\codewars\Source.cpp(27,25): warning C4244:         with
-D:\WORKING\codewars\codewars\Source.cpp(27,25): warning C4244:         [
-D:\WORKING\codewars\codewars\Source.cpp(27,25): warning C4244:             _Ty=uint64_t
-D:\WORKING\codewars\codewars\Source.cpp(27,25): warning C4244:         ]
-D:\WORKING\codewars\codewars\Source.cpp(34,8): warning C4244: инициализация: преобразование "uint64_t" в "int", возможна потеря данных
+D:\WORKING\codewars\codewars\Source.cpp(40,8): warning C4244: инициализация: преобразование "uint64_t" в "int", возможна потеря данных
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\xutility(1627,36): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+      D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\xutility(1627,36):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\WORKING\codewars\codewars\Source.cpp(31,7):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,bool(__cdecl *)(int,int)>(const _RanIt,const _RanIt,_Pr)"
+          with
+          [
+              _Ty=uint64_t,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<uint64_t>>>,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+          D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8373,10):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Sort_unchecked<unsigned __int64*,bool(__cdecl *)(int,int)>(_RanIt,_RanIt,__int64,_Pr)"
+          with
+          [
+              _RanIt=unsigned __int64 *,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+          D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8343,18):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_BidIt *std::_Insertion_sort_unchecked<_RanIt,bool(__cdecl *)(int,int)>(const _BidIt,const _BidIt,_Pr)"
+          with
+          [
+              _BidIt=unsigned __int64 *,
+              _RanIt=unsigned __int64 *,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+          D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8218,17):
+          выполняется компиляция ссылки на экземпляр шаблон функции "bool std::_Debug_lt_pred<bool(__cdecl *&)(int,int),unsigned __int64&,unsigned __int64&>(_Pr,_Ty1,_Ty2) noexcept(<expr>)"
+          with
+          [
+              _Pr=bool (__cdecl *&)(int,int),
+              _Ty1=unsigned __int64 &,
+              _Ty2=unsigned __int64 &
+          ]
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\xutility(1627,29): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\xutility(1620,77): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+      D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\xutility(1620,77):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\xutility(1627,48):
+          выполняется компиляция ссылки на шаблон переменной "const bool _Debug_lt_pred_order_check_noexcept<bool (__cdecl*&)(int,int),unsigned __int64 &,unsigned __int64 &,1>"
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\xutility(1620,54): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8276,32): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+      D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8276,32):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8354,26):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,bool(__cdecl *)(int,int)>(_RanIt,_RanIt,_Pr)"
+          with
+          [
+              _RanIt=unsigned __int64 *,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8276,22): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8280,92): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8280,82): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8291,40): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8291,30): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8305,40): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8305,30): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\xutility(1628,57): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+      D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\xutility(1628,57):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8343,18):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_BidIt *std::_Insertion_sort_unchecked<_RanIt,bool(__cdecl *)(int,int)>(const _BidIt,const _BidIt,_Pr)"
+          with
+          [
+              _BidIt=unsigned __int64 *,
+              _RanIt=unsigned __int64 *,
+              _Pr=bool (__cdecl *)(int,int)
+          ]
+          D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\algorithm(8218,17):
+          выполняется компиляция ссылки на экземпляр шаблон функции "bool std::_Debug_lt_pred<bool(__cdecl *&)(int,int),unsigned __int64&,unsigned __int64&>(_Pr,_Ty1,_Ty2) noexcept(false)"
+          with
+          [
+              _Pr=bool (__cdecl *&)(int,int),
+              _Ty1=unsigned __int64 &,
+              _Ty2=unsigned __int64 &
+          ]
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\xutility(1628,50): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
+D:\WORKING\VISUALSTUDIO2025win11\VC\Tools\MSVC\14.43.34808\include\xutility(1632,13): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  
   codewars.vcxproj -> D:\WORKING\codewars\x64\Debug\codewars.exe
